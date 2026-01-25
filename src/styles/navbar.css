@@ -1,0 +1,25 @@
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    color: #05A0CA !important; 
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+.navegacao{
+    margin-right: 15%;
+}
+
+.navegacao .nav-link{
+    font-size: 1.1rem;
+    color: #ffffff !important; 
+    font-family: 'Inter', sans-serif; 
+    transition: 0.3s;
+    opacity: 80%;
+    margin-left: 8%;
+}
+
+.navegacao .nav-link:hover {
+    color: #00d4ff !important; /* O azul vibrante do teu gradiente */
+}
