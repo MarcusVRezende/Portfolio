@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './componentes/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Inicio from './componentes/inicio.jsx'
+import Sobre from './componentes/Sobre.jsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <NavBar/>
       <Inicio/>
+      <Sobre/>
     </div>
   )
 }

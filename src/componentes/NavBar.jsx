@@ -6,7 +6,7 @@ import '../styles/NavBar.css';
 
 function NavBar(){
     return(
-        <Navbar>
+        <Navbar fixed='top' className='navbar-completo'>
             <Container className='navbar'>
                 
                 <Navbar.Brand href="#home">Port. </Navbar.Brand>
