@@ -4,15 +4,14 @@
 .sobre{
     background-image: url('../assets/fotos-fundos/fundo2.png');
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     flex-direction: column;
     display: flex;
-    padding: 50px;
-
+    padding: 80px;
     min-height: 100vh;
 }
 .titulo-sobre{
@@ -37,11 +36,11 @@
 .sessao-foto{
     flex: 1;
     display: flex;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 .foto-sobre{
     width: 100%;
-    max-width: 450px;
+    max-width: 425px;
     border-radius: 50%;
     border: 2px solid #1194c4c5 ;
     box-shadow:  0px 0px 25px #eeeeee2d;
@@ -55,4 +54,5 @@
 }
 .conteudo-texto-sobre{
     flex: 2.0;
+    margin-top: 2%;
 }

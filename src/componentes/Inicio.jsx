@@ -6,7 +6,7 @@ function Inicio() {
 
     return (
 
-        <div className="inicio">
+        <div className="inicio" id = "home">
             <div className="texto-icicio">
                 <h1 className="titulo">Portfólio</h1>
                 <p className="texto">Construindo <span className="destacado">soluções</span> 
