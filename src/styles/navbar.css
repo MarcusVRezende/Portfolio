@@ -1,14 +1,22 @@
+
+
 .navbar{
-    background-color: black;
+    max-width: 100%!important;
+    background-color: black!important;
+    overflow: hidden!important;
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important;
 }
 
 .navbar-brand{
+    padding: 0px 50px;
     color: #05A0CA !important; 
     font-weight: bold;
     font-size: 2rem !important;
 }
 .navegacao{
-    margin-right: 15%;
+    margin-right: 20%;
 }
 
 .navegacao .nav-link{
@@ -17,7 +25,8 @@
     font-family: 'Inter', sans-serif; 
     transition: 0.3s;
     opacity: 80%;
-    margin-left: 8%;
+    margin-left: 9%;
+    width: 100%;
 }
 
 .navegacao .nav-link:hover {

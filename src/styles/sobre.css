@@ -1,5 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');
+
 .sobre{
-    background-color: black;
     background-image: url('../assets/fotos-fundos/fundo2.png');
+    color: white;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    flex-direction: column;
+    display: flex;
+    padding: 50px;
+
+    min-height: 100vh;
+}
+.titulo-sobre{
+    font-family: "Jura", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.frase{
+    padding: 0px 0px;
+    font-size: 4.2rem;
+    width: 100%;
+    font-weight: 500;
+    color: #1194c4c5;
+    line-height: 1.2;
+}
+
+.texto-sobre{
+    font-size: 1.6rem;
+    width: 85%;
+    text-align: justify;
+}
+.sessao-foto{
+    flex: 1;
+    display: flex;
+    margin-top: 4%;
+}
+.foto-sobre{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 50%;
+    border: 2px solid #1194c4c5 ;
+    box-shadow:  0px 0px 25px #eeeeee2d;
     
+}
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* FAZ A FOTO SUBIR: Alinha tudo pelo topo */
+    gap: 0px;
+}
+.conteudo-texto-sobre{
+    flex: 2.0;
 }
