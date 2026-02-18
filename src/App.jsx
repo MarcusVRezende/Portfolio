@@ -3,6 +3,7 @@ import NavBar from './componentes/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Inicio from './componentes/inicio.jsx'
 import Sobre from './componentes/Sobre.jsx'
+import Projetos from './componentes/Projetos.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <NavBar/>
       <Inicio/>
       <Sobre/>
+      <Projetos/>
     </div>
   )
 }

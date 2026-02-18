@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+
     
 }
 .texto-icicio{
@@ -76,10 +77,12 @@
 }
 
 .botao1:hover{
+    transform: scale(1.05);
     border: 2px solid #00c8ff;
     color: #00c8ff;
 }
 .botao2:hover{
+    transform: scale(1.05);
     border: 2px solid #00c8ff;
     color: #00c8ff;
 }
