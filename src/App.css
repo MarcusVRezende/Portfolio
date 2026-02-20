@@ -1,3 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+.init-hidden {
+    opacity: 0;
+    transition: opacity 1s linear;
+    transform: translateY(50px);
+    transition: all 0.8s ease-in-out;
+
+    min-width: 320px;
+
+}
+
+.init-hidden-off {
+    opacity: 1;
+    transform: translateY(0);
+}
