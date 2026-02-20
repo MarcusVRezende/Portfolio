@@ -5,7 +5,7 @@ import Inicio from './componentes/inicio.jsx'
 import Sobre from './componentes/Sobre.jsx'
 import Projetos from './componentes/Projetos.jsx'
 import React, { useEffect } from "react";
-
+import Habilidades from './componentes/Habilidades.jsx'
 
 function App() {
    useEffect(() => {
@@ -34,6 +34,7 @@ function App() {
       <Inicio/>
       <Sobre/>
       <Projetos/>
+      <Habilidades/>
     </div>
   )
 }

@@ -15,6 +15,7 @@
 
 
     padding: 20px 0px;
+    padding-bottom: 80px ;
 
     background-image: url(../assets/fotos-fundos/fundo3.png);
 
@@ -97,6 +98,11 @@
     font-weight: 750;
     color: #1ec4f2;
     text-shadow: 0px 0px 15px rgb(0, 0, 0)
+}
+.titulo-projeto-cada:hover{
+    scale: calc(1.08);
+    transition: all 0.4s ease;
+
 }
 
 .descricao-projeto {

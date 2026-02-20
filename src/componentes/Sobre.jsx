@@ -5,10 +5,9 @@ function Sobre() {
     <div className="sobre-container">
       <div className="sobre" id="sobre">
         <div className="conteudo-sobre">
-          <div className="init-hidden">
-            <div className="conteudo-texto-sobre">
-              <h1 className="titulo-sobre">Sobre Mim</h1>
-
+          <div className="conteudo-texto-sobre">
+            <h1 className="titulo-sobre">Sobre Mim</h1>
+            <div className="init-hidden">
               <p className="frase">
                 Estudante de Engenharia de Software & Dev Full Stack
               </p>
@@ -18,7 +17,6 @@ function Sobre() {
                   desenvolvimento Full Stack. Atualmente estou me aprofundando
                   em tecnologias front-end para criar interfaces mais intuitivas
                   e performáticas.
-                  
                 </p>
                 <p>
                   Minha jornada combina a base teórica da faculdade com projetos

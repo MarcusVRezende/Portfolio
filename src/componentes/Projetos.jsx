@@ -82,7 +82,18 @@ function Projetos() {
                 </Carousel>
               </a>
               <div className="titulo-projeto-container">
-                <h2 className="titulo-projeto-cada">Pincel Mágico</h2>
+                <h2 className="titulo-projeto-cada">
+                  {" "}
+                  <a
+                    href="https://recreya.onrender.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link"
+                  >
+                    Pincel Mágico
+                  </a>
+                </h2>
+
                 <p className="descricao-projeto">
                   Desenvolvimento da plataforma oficial da Pincel Mágico. O site
                   foi estruturado para apresentar o catálogo de animação de
@@ -141,7 +152,17 @@ function Projetos() {
                 </Carousel>
               </a>
               <div className="titulo-projeto-container">
-                <h2 className="titulo-projeto-cada">Recreya</h2>
+                <h2 className="titulo-projeto-cada">
+                  <a
+                    href="https://recreya.onrender.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link"
+                  >
+                    Recreya
+                  </a>
+                </h2>
+
                 <p className="descricao-projeto">
                   Website institucional desenvolvido com React e Tailwind CSS. O
                   projeto foca em componentes dinâmicos e estilização otimizada
@@ -206,7 +227,17 @@ function Projetos() {
                 </Carousel>
               </a>
               <div className="titulo-projeto-container">
-                <h2 className="titulo-projeto-cada">SeLiga</h2>
+                <h2 className="titulo-projeto-cada">
+                  <a
+                    href="https://recreya.onrender.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link"
+                  >
+                    SeLiga
+                  </a>
+                </h2>
+
                 <p className="descricao-projeto">
                   Projeto desenvolvido para a universidade onde atuei na criação
                   da interface web. O objetivo foi transformar dados complexos
