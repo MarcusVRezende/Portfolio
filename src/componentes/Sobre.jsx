@@ -18,6 +18,7 @@ function Sobre() {
                   desenvolvimento Full Stack. Atualmente estou me aprofundando
                   em tecnologias front-end para criar interfaces mais intuitivas
                   e performáticas.
+                  
                 </p>
                 <p>
                   Minha jornada combina a base teórica da faculdade com projetos
