@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { TbBrandCpp } from "react-icons/tb";
+import "../styles/habilidades.css";
 
 function Habilidades() {
   return (
@@ -23,10 +24,10 @@ function Habilidades() {
           <div className="cards-container">
             <Card className="cards">
               <Card.Body>
-                <Card.Title>UI/UX Design</Card.Title>
-                <Card.Text>
-                  Interfaces intuitivas e experiências memoráveis centradas no
-                  usuário.
+                <Card.Title className="card-titulo">UI/UX Design</Card.Title>
+                <Card.Text className="card-texto">
+                  Interfaces intuitivas e experiências focadas no usuário,
+                  utilizando as melhores práticas de design e usabilidade.
                   <div className="extra-container">
                     <h3 className="extra">Figma</h3>
                     <h3 className="extra">Sketch</h3>
@@ -36,9 +37,10 @@ function Habilidades() {
             </Card>
             <Card className="cards">
               <Card.Body>
-                <Card.Title>Desenvolvimento</Card.Title>
-                <Card.Text>
-                  Código limpo e performático com as tecnologias mais modernas.
+                <Card.Title className="card-titulo">Desenvolvimento</Card.Title>
+                <Card.Text className="card-texto">
+                  Soluções robustas e escaláveis, utilizando as melhores
+                  práticas de Clean Code e performance.
                   <div className="extra-container">
                     <h3 className="extra">React</h3>
                     <h3 className="extra">TypeScript</h3>
@@ -48,9 +50,10 @@ function Habilidades() {
             </Card>
             <Card className="cards">
               <Card.Body>
-                <Card.Title>Estratégia</Card.Title>
-                <Card.Text>
-                  Código limpo e performático com as tecnologias mais modernas.
+                <Card.Title className="card-titulo">Estratégia</Card.Title>
+                <Card.Text className="card-texto">
+                  Análise de dados e planejamento de produto para transformar
+                  ideias em resultados reais de negócio.
                   <div className="extra-container">
                     <h3 className="extra">User Research</h3>
                     <h3 className="extra">Analytics</h3>
@@ -60,9 +63,10 @@ function Habilidades() {
             </Card>
             <Card className="cards">
               <Card.Body>
-                <Card.Title>Produto</Card.Title>
-                <Card.Text>
-                  Visão completa do ciclo de vida do produto digital.
+                <Card.Title className="card-titulo">Produto</Card.Title>
+                <Card.Text className="card-texto">
+                  Gestão do ciclo de vida de produtos digitais, unindo visão
+                  estratégica e foco total na entrega de valor.
                   <div className="extra-container">
                     <h3 className="extra">Scrum</h3>
                   </div>

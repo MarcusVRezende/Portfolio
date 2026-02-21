@@ -13,7 +13,7 @@ function NavBar(){
 
                 <Nav className="navegacao">
                     <Nav.Link href="#sobre">Sobre</Nav.Link>
-                    <Nav.Link href="#projetos">Projetos</Nav.Link>
+                    <Nav.Link href="#projeto">Projetos</Nav.Link>
                     <Nav.Link href="#habilidades">Habilidades</Nav.Link>
                     <Nav.Link href="#contatos">Contatos</Nav.Link>
                 </Nav>

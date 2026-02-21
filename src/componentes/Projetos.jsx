@@ -20,7 +20,7 @@ import fotoSeLiga5 from "../assets/projetos-fotos/seLiga/imagem5.png";
 
 function Projetos() {
   return (
-    <div className="projetos-container" id="projetos">
+    <div className="projetos-container" id="projeto">
       <div className="projetos">
         <div className="titulo-projetos-container">
           <h1 className="titulo-projetos">Projetos</h1>
@@ -32,7 +32,7 @@ function Projetos() {
                 Web Design & Desenvolvimento
               </h2>
               <a
-                href="https://pincelmagicoanimacoes.com.br/"
+                href="https://pincelmagicoanimacoes.com.br"
                 className="link"
                 target="_blank"
                 rel="noreferrer"
@@ -109,7 +109,7 @@ function Projetos() {
                 Web Design & Desenvolvimento
               </h2>
               <a
-                href="https://seliga-portal.onrender.com"
+                href="https://marcusvrezende.github.io/recreya/"
                 className="link"
                 target="_blank"
                 rel="noreferrer"
