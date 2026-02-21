@@ -44,14 +44,19 @@
     align-items: flex-start;
     width: 100%;
     gap: 5%;
+    
 }
 .foto-carrossel-container:hover{
     transform: scale(1.05);
     transition: all 0.5s ease;
+    box-shadow: 0px 0px 15px #05A0CA;
+
+    
 }
 
 .bloco-projetos {
     width: 400px;
+    
 }
 
 .titulo-cima-bloco {
@@ -68,6 +73,7 @@
     background: linear-gradient(#05A0CA 10%, #500F42);
     border-radius: 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+
 }
 
 .foto-carrossel {

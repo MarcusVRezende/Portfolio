@@ -76,35 +76,45 @@ function Habilidades() {
           </div>
           <div className="init-hidden">
             <div className="linguagens-container">
-              <h1 className="linguagens-titulo">
-                Linguagens e tecnologias que estou estudando:{" "}
-              </h1>
-              <div className="linguagens-lista">
-                <div className="descricao">
-                  <h4>
-                    HTML <FaHtml5 />
-                  </h4>
-                  <h4>
-                    CSS <FaCss3Alt />
-                  </h4>
-                  <h4>
-                    JavaScript <RiJavascriptFill />
-                  </h4>
-                  <h4>
-                    React <FaReact />
-                  </h4>
-                  <h4>
-                    Docker <FaDocker />
-                  </h4>
-                  <h4>
-                    Java <FaJava />
-                  </h4>
-                  <h4>
-                    Python <FaPython />
-                  </h4>
-                  <h4>
-                    C++ <TbBrandCpp />
-                  </h4>
+              <div className="linguagens">
+                <h1 className="linguagens-titulo">
+                  Linguagens e tecnologias que estou estudando
+                </h1>
+                <div className="linguagens-lista">
+                  <div className="descricao">
+                    <div className="icone-container">
+                      <FaHtml5 className="icone-html" />
+                      <h4 className="icone-descricao">HTML</h4>
+                    </div>
+                    <div className="icone-container">
+                      <FaCss3Alt className="icone-css" />
+                      <h4 className="icone-descricao">CSS</h4>
+                    </div>
+                    <div className="icone-container">
+                      <RiJavascriptFill className="icone-js" />
+                      <h4 className="icone-descricao">JavaScript</h4>
+                    </div>
+                    <div className="icone-container">
+                      <FaReact className="icone-react" />
+                      <h4 className="icone-descricao">React</h4>
+                    </div>
+                    <div className="icone-container">
+                      <FaDocker className="icone-docker" />
+                      <h4 className="icone-descricao">Docker</h4>
+                    </div>
+                    <div className="icone-container">
+                      <FaJava className="icone-java" />
+                      <h4 className="icone-descricao">Java</h4>
+                    </div>
+                    <div className="icone-container">
+                      <FaPython className="icone-python" />
+                      <h4 className="icone-descricao">Python</h4>
+                    </div>
+                    <div className="icone-container">
+                      <TbBrandCpp className="icone-cpp" />
+                      <h4 className="icone-descricao">C++</h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

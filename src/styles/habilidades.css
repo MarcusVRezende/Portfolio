@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');
 
-
 .habilidades-container {
-
     margin: 0;
 
     padding: 60px 0px;
@@ -19,8 +17,6 @@
     color: white;
 
     background-color: rgba(0, 0, 0);
-
-
 }
 
 .titulo-habilidades-container {
@@ -51,6 +47,7 @@
     padding-right: 190px;
     max-width: 100%;
 }
+
 .cards {
     color: white;
     padding: 20px;
@@ -64,16 +61,23 @@
     display: flex;
     flex-direction: column;
     min-height: 200px;
+
+    box-shadow: 0px 0px 10px #92007E;
 }
-.cards:hover{
-    transform:scale(1.05);
+
+.cards:hover {
+    transform: scale(1.03);
     transition: all 0.5s ease;
+    box-shadow: 0px 0px 20px #92007E;
+
 }
+
 .cards .card-body {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
+
 .card-titulo {
     font-family: "inter", sans-serif;
     font-weight: 700;
@@ -87,25 +91,149 @@
     font-size: 1rem;
     font-family: "inter", sans-serif;
     opacity: 80%;
-    flex-grow: 1;   
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
-.extra-container{
+
+.extra-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
     gap: 10%;
-    margin-top: auto;  
+    margin-top: auto;
 }
-.extra{
+
+.extra {
     text-align: center;
     background-color: #92007E;
     padding: 8px;
-    
+
     border-radius: 50px;
     font-size: 0.9rem;
     border: 1px solid #ff00dd;
     opacity: 100%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.linguagens-container {
+    padding-top: 3%;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.linguagens {
+    background-image: linear-gradient(to right, #059fca56, #92007f56);
+    border: 5px solid linear-gradient(to right, #059fca56, #92007f56);
+
+    box-shadow: 0px 0px 5px #ff00dd;
+    padding: 40px;
+    border-radius: 30px;
+    border: 2px solid #ff00dd;
+}
+
+.linguagens:hover {
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+}
+
+.linguagens-titulo {
+    padding: 3%;
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    opacity: 90%;
+}
+
+.linguagens-lista {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 0px;
+    border: 2px solid #ff00dd;
+    box-shadow: 0px 0px 5px #ff00dd;
+}
+
+.descricao {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.icone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icone-descricao {
+    font-size: 0.9rem;
+
+}
+
+.icone-html,
+.icone-css,
+.icone-js,
+.icone-react,
+.icone-docker,
+.icone-java,
+.icone-python,
+.icone-cpp {
+    width: 70px;
+    height: 70px;
+}
+
+.icone-html:hover,
+.icone-css:hover,
+.icone-js:hover,
+.icone-react:hover,
+.icone-docker:hover,
+.icone-java:hover,
+.icone-python:hover,
+.icone-cpp:hover {
+    transform: scale(1.18);
+    transition: all 0.8s ease;
+}
+
+.icone-html:hover {
+    color: #E34C26;
+}
+
+.icone-css:hover {
+    color: #3498db;
+}
+
+.icone-js:hover {
+    color: #F7DF1E;
+}
+
+.icone-react:hover {
+    color: #61DBFB;
+}
+
+.icone-docker:hover {
+    color: #1D63ED;
+}
+
+.icone-java:hover {
+    color: #ED8B00;
+}
+
+.icone-python:hover {
+    color: #4B8BBE;
+
+}
+
+.icone-cpp:hover {
+    color: #1D63ED;
 }
