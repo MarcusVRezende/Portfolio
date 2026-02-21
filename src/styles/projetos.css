@@ -14,7 +14,8 @@
     align-items: center;
 
 
-    padding: 20px 0px;
+    padding: 65px 0px;
+    padding-bottom: 80px ;
 
     background-image: url(../assets/fotos-fundos/fundo3.png);
 
@@ -26,12 +27,12 @@
 
 
 .titulo-projetos {
-    align-self: flex-start; /* Alinha apenas este elemento à esquerda do container flex */
-    padding-top: 80px;
+    text-align: center;
+    padding-top: 50px;
     padding-bottom: 50px;
     font-family: "Jura", sans-serif;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 4rem;
     width: 100%;
 
 }
@@ -43,14 +44,19 @@
     align-items: flex-start;
     width: 100%;
     gap: 5%;
+    
 }
 .foto-carrossel-container:hover{
     transform: scale(1.05);
     transition: all 0.5s ease;
+    box-shadow: 0px 0px 15px #05A0CA;
+
+    
 }
 
 .bloco-projetos {
     width: 400px;
+    
 }
 
 .titulo-cima-bloco {
@@ -67,6 +73,7 @@
     background: linear-gradient(#05A0CA 10%, #500F42);
     border-radius: 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+
 }
 
 .foto-carrossel {
@@ -97,6 +104,11 @@
     font-weight: 750;
     color: #1ec4f2;
     text-shadow: 0px 0px 15px rgb(0, 0, 0)
+}
+.titulo-projeto-cada:hover{
+    scale: calc(1.08);
+    transition: all 0.4s ease;
+
 }
 
 .descricao-projeto {
