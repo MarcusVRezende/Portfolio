@@ -11,9 +11,9 @@ function Contatos() {
         <div className="titulo-contatos-container">
           <h1 className="titulo-contatos">Contatos</h1>
           <div className="init-hidden">
-            <p className="titullo-rodape-extra">
+            <p className="titulo-rodape-extra">
               Vamos criar algo{" "}
-              <spam className="destaque-contatos">incrível</spam> juntos?
+              <span className="destaque-contatos">incrível</span> juntos?
             </p>
           </div>
           <p className="texto-contatos">

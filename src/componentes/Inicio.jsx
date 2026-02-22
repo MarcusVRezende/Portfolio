@@ -1,11 +1,15 @@
 import { Container } from "lucide-react";
 import "../styles/inicio.css";
 import React from "react";
+import video from "../assets/fotos-fundos/video-fundo.mp4";
 
 function Inicio() {
   return (
-    <div className="inicio-container">
-      <div className="inicio" id="home">
+    <div className="inicio-container" id="home">
+      <div className="inicio">
+        <video className="video-background" autoPlay loop muted playsInline>
+          <source src={video} type="video/mp4" />
+        </video>
         <div className="texto-icicio">
           <h1 className="titulo">Portfólio</h1>
           <p className="texto">
@@ -14,8 +18,8 @@ function Inicio() {
           </p>
         </div>
         <div className="botoes">
-          <button className="botao1" >Ver Projetos</button>
-          <button className="botao2" >Entre em contato</button>
+          <button className="botao1">Ver Projetos</button>
+          <button className="botao2">Entre em contato</button>
         </div>
       </div>
     </div>

@@ -1,21 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');
 
-.inicio{
+
+.inicio-container {
     margin: 0;
-    padding: 10%;
-    background-color: black;
+    padding: 0px;   
     background-image: url('../assets/fotos-fundos/fundo1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: black; 
     min-height: 100vh;
+    width: 100%;
+    position: relative; 
+    overflow: hidden;
+}
+
+.inicio {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
-
-    
+    align-items: center;
+    min-height: 100vh; 
+    width: 100%;
+    position: relative;
+    z-index: 2; 
+}
+.video-background {
+    position: absolute; /* Video flutua atrás de tudo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz preencher sem esticar */
+    z-index: -1; 
 }
 .texto-icicio{
     color: rgb(255, 255, 255);

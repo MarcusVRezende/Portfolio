@@ -8,7 +8,7 @@
     align-items: center;
     padding: 80px;
 
-    background-image: linear-gradient(#45013C 20%, #022D38);
+    background-image: linear-gradient(#36012f 20%, #022D38);
     color: white;
     text-align: center;
     padding-bottom: 20px; 
@@ -23,7 +23,7 @@
     font-size: 4rem;
 }
 
-.titullo-rodape-extra {
+.titulo-rodape-extra {
     padding: 15px;
     font-family: "jura", sans-serif;
     font-weight: 800;

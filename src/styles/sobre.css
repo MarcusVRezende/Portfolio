@@ -19,7 +19,7 @@
    
     flex-direction: column;
     display: flex;
-    padding: 100px;
+    padding: 60px;
 }
 .titulo-sobre{
     font-family: "Jura", sans-serif;
@@ -45,7 +45,7 @@
 .sessao-foto{
     flex: 1;
     display: flex;
-    margin-top: 45%;
+    margin-top: 40%;
     
 }
 .foto-sobre{

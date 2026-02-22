@@ -203,6 +203,7 @@
 .icone-cpp:hover {
     transform: scale(1.18);
     transition: all 0.8s ease;
+    animation: alternate;
 }
 
 .icone-html:hover {
