@@ -1,37 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 
-
-.navbar{
-    max-width: 100%!important;
-    background-color: black!important;
-    overflow: hidden!important;
-    position: fixed!important;
-    top: 0!important;
-    width: 100%!important;
-    border-bottom: 2px solid #059fca41;
-
-    padding-top: 20px!important;
-    padding-bottom: 20px !important;
+.mobile-menu-dropdown {
+    display: none;
+    flex-direction: column;
+    background-color: #1194c4;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #92007f;
+    align-items: center;
+    z-index: 5;
 }
 
-.navbar-brand{
+/* Classe 'show' que é ativada pelo React */
+.mobile-menu-dropdown.show {
+    display: flex !important;
+}
+
+.mobile-menu-icon {
+    /* Escondido no desktop */
+    display: none;
+    background: none;
+    border: none;
+    color: #1194c4;
+    font-size: 2rem;
+    padding-right: 1.5rem;
+}
+.nav-link-mobile{
+
+    padding: 10px;
+    font-family: "Jura", sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: white;
+
+    text-decoration: none;
+}
+
+
+.navbar-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    max-width: 100% !important;
+    background-color: black !important;
+    overflow: hidden !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    border-bottom: 2px solid #059fca41;
+
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.navbar-brand {
     padding: 0px 50px;
-    color: #05A0CA !important; 
+    color: #05A0CA !important;
     font-weight: bold;
     font-size: 2rem !important;
 }
-.navegacao{
+.navbar-brand:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    text-shadow: 0px 0px 20px #059fca;
+} 
+
+.navegacao {
     margin-right: 20%;
 }
 
-.navegacao .nav-link{
+.navegacao .nav-link {
     font-size: 1.25rem;
-    color: #ffffff !important; 
-    font-family: 'Inter', sans-serif; 
+    color: #ffffff !important;
+    font-family: 'Inter', sans-serif;
     transition: 0.3s;
     opacity: 80%;
     margin-left: 10%;
 }
 
 .navegacao .nav-link:hover {
-    color: #00d4ff !important; /* O azul vibrante do teu gradiente */
+    color: #00d4ff !important;
+    /* O azul vibrante do teu gradiente */
+}
+@media (max-width: 768px) {
+
+    .navegacao {
+        display: none !important;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
 }
