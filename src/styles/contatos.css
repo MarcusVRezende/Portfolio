@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');
+
+
+
+.contatos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+
+    background-image: linear-gradient(#45013C 20%, #022D38);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+.titulo-contatos-container {
+    padding: 10px;
+}
+
+.titulo-contatos {
+    font-family: "jura", sans-serif;
+    font-size: 4rem;
+}
+
+.titullo-rodape-extra {
+    padding: 15px;
+    font-family: "jura", sans-serif;
+    font-weight: 800;
+    color: rgb(102, 102, 102);
+    font-size: 3rem;
+}
+
+.destaque-contatos {
+    color: #05A0CA;
+}
+
+.texto-contatos {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.8rem;
+    opacity: 75%;
+}
+
+.email-container {
+    padding: 5px;
+}
+
+.botao-email {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: linear-gradient(to right, #92007E, #05A0CA);
+    font-size: 2rem;
+    font-family: "jura", sans-serif;
+    font-weight: 800;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #92007E;
+    box-shadow: 0px 0px 10px black;
+}
+
+.botao-email:hover {
+    transform: scale(1.07);
+    transition: all 0.5s ease;
+    border: 2px solid #05A0CA;
+    background-image: linear-gradient(to right, #05A0CA, #92007E);
+}
+
+.icone-redes-sociais {
+    padding: 0px;
+    padding-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.icone-redes {
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.icone-redes:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px #05A0CA;
+}
+.icone{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    color: #005971;
+}

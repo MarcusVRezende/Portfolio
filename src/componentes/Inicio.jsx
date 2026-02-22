@@ -14,8 +14,8 @@ function Inicio() {
           </p>
         </div>
         <div className="botoes">
-          <button className="botao1" id="projetos" >Ver Projetos</button>
-          <button className="botao2">Entre em contato</button>
+          <button className="botao1" >Ver Projetos</button>
+          <button className="botao2" >Entre em contato</button>
         </div>
       </div>
     </div>

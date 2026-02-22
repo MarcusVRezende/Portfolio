@@ -3,8 +3,8 @@
 .habilidades-container {
     margin: 0;
 
-    padding: 60px 0px;
-
+    padding: 40px 0px;
+    padding-bottom: 7%;
     background-image: url(../assets/fotos-fundos/fundo2.png);
 
     display: flex;
@@ -155,8 +155,8 @@
     background-color: #000000;
     border-radius: 30px;
     padding: 0px;
-    border: 2px solid #ff00dd;
-    box-shadow: 0px 0px 5px #ff00dd;
+    border: 2px solid #853a7b;
+    box-shadow: 0px 0px 10px #ff00dd;
 }
 
 .descricao {
@@ -231,7 +231,6 @@
 
 .icone-python:hover {
     color: #4B8BBE;
-
 }
 
 .icone-cpp:hover {
