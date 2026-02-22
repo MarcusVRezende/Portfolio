@@ -18,8 +18,12 @@ function Inicio() {
           </p>
         </div>
         <div className="botoes">
-          <button className="botao1">Ver Projetos</button>
-          <button className="botao2">Entre em contato</button>
+          <a href="#projetos">
+            <button className="botao1">Ver Projetos</button>
+          </a>
+          <a href="#contatos">
+            <button className="botao2">Entre em contato</button>
+          </a>
         </div>
       </div>
     </div>
