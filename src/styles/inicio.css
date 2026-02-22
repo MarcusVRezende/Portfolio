@@ -69,19 +69,13 @@
     
 }
 .botao2{
-    color: white;
     background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
-        linear-gradient(to right, #92007E, #05A0CA) border-box;
+    linear-gradient(to right, #92007E, #05A0CA) border-box;
     border-radius: 50px;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 }
 
-.botao1:hover{
-    transform: scale(1.05);
-    border: 2px solid #00c8ff;
-    color: #00c8ff;
-}
-.botao2:hover{
+.botao1:hover,.botao2:hover {
     transform: scale(1.05);
     border: 2px solid #00c8ff;
     color: #00c8ff;
