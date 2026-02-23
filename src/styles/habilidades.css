@@ -98,11 +98,12 @@
 
 .extra-container {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     padding-top: 20px;
     gap: 10%;
     margin-top: auto;
+
 }
 
 .extra {
@@ -236,4 +237,243 @@
 
 .icone-cpp:hover {
     color: #1D63ED;
+}
+
+@media (max-width: 1024px) {
+    .cards-container {
+        flex-wrap: wrap;
+    }
+
+    .cards-container {
+        gap: 2%;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cards {
+
+        padding: 10px;
+        width: 220px;
+        display: flex;
+    }
+
+    .card-titulo {
+        font-size: 1.1rem;
+        padding-top: 5px;
+    }
+
+    .card-texto {
+        padding-top: 20px;
+        font-size: 0.9rem;
+    }
+
+    .extra-container {
+        padding-top: 20px;
+        gap: 10%;
+        margin-top: auto;
+    }
+
+    .extra {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8rem;
+
+    }
+
+    .linguagens-container {
+        padding-top: 5%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .descricao {
+        gap: 5%;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    .cards-container {
+        gap: 20px 20px;
+    }
+
+    .cards {
+        padding: 15px;
+        width: 280px;
+
+    }
+
+    .card-titulo {
+        font-size: 1.5rem;
+        padding-top: 5px;
+    }
+
+    .card-texto {
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+
+    .linguagens-container {
+        padding-top: 5%;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .descricao {
+        padding-top: 40px;
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+
+    .linguagens-titulo {
+        font-size: 2.1rem;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 579px) {
+
+    .titulo-habilidades {
+        font-size: 3.5rem;
+
+    }
+
+    .titulo-descricao {
+        font-size: 2rem;
+
+    }
+
+    .cards-container {
+        padding: 0px;
+        gap: 10px 10px;
+    }
+
+    .cards {
+        padding: 5px;
+        width: 185px;
+
+    }
+
+    .card-titulo {
+        font-size: 1rem;
+        padding-top: 0px;
+    }
+
+    .card-texto {
+        padding-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .extra-container {
+        padding-top: 10px;
+        gap: 5%;
+    }
+
+    .extra {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+
+    .linguagens-container {
+        padding-top: 5%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .descricao {
+        padding-top: 40px;
+        gap: 5%;
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+
+    .linguagens-titulo {
+        padding: 0px;
+        font-size: 1.4rem;
+        padding-bottom: 20px;
+    }
+
+    .icone-html,
+    .icone-css,
+    .icone-js,
+    .icone-react,
+    .icone-docker,
+    .icone-java,
+    .icone-python,
+    .icone-cpp {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 375px) {
+    .titulo-habilidades {
+        font-size: 2.6rem;
+    }
+
+    .cards-container {
+        padding: 0px;
+        gap: 5px 5px;
+    }
+
+    .cards {
+        padding: 5px;
+        width: 150px;
+    }
+
+    .card-titulo {
+        font-size: 1rem;
+        padding-top: 0px;
+    }
+
+    .card-texto {
+        padding-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .extra-container {
+        padding-top: 10px;
+        gap: 5%;
+        margin-left: -5%;
+    }
+
+    .extra {
+        padding: 5px;
+        font-size: 0.65rem;
+    }
+
+    .descricao {
+        padding-top: 0px;
+        gap: 5%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .linguagens-titulo {
+        font-size: 1.1rem;
+        
+    }
+    .linguagens-lista{
+        padding: 20px;
+    }
+
+
+    .icone-html,
+    .icone-css,
+    .icone-js,
+    .icone-react,
+    .icone-docker,
+    .icone-java,
+    .icone-python,
+    .icone-cpp {
+        width: 40px;
+        height: 40px;
+    }
 }
