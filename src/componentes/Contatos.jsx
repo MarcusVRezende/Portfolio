@@ -9,7 +9,7 @@ function Contatos() {
     <div className="contatos-container" id="contatos">
       <div className="contatos">
         <div className="titulo-contatos-container">
-          <h1 className="titulo-contatos">Contatos</h1>
+          <h2 className="titulo-contatos">Contatos</h2>
           <div className="init-hidden">
             <p className="titulo-contatos-extra">
               Vamos criar algo

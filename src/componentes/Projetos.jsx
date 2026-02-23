@@ -36,14 +36,14 @@ function Projetos() {
     <div className="projetos-container" id="projetos">
       <div className="projetos">
         <div className="titulo-projetos-container">
-          <h1 className="titulo-projetos">Projetos</h1>
+          <h2 className="titulo-projetos">Projetos</h2>
         </div>
         <div className="init-hidden">
           <div className="bloco-projetos-container">
             <div className="bloco-projetos">
-              <h2 className="titulo-cima-bloco">
+              <h3 className="titulo-cima-bloco">
                 Web Design & Desenvolvimento
-              </h2>
+              </h3>
               <a
                 href="https://marcusvrezende.github.io/recreya/"
                 className="link"
@@ -60,35 +60,35 @@ function Projetos() {
                   <Carousel.Item>
                     <img
                       src={fotoRecreya1}
-                      alt="primeiro exemplo do site Recreya"
+                      alt="Primeira imagem do site Recreya"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       src={fotoRecreya2}
-                      alt="segundo exemplo do site Recreya"
+                      alt="Segunda imagem do site Recreya"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       src={fotoRecreya3}
-                      alt="terceiro exemplo do site Recreya"
+                      alt="Terceira imagem do site Recreya"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       src={fotoRecreya4}
-                      alt="quarto exemplo do site Recreya"
+                      alt="Quarta imagem do site Recreya"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                 </Carousel>
               </a>
               <div className="titulo-projeto-container">
-                <h2 className="titulo-projeto-cada">
+                <h3 className="titulo-projeto-cada">
                   <a
                     href="https://recreya.onrender.com"
                     target="_blank"
@@ -97,7 +97,7 @@ function Projetos() {
                   >
                     Recreya
                   </a>
-                </h2>
+                </h3>
 
                 <p className="descricao-projeto">
                   Website institucional desenvolvido com React e Tailwind CSS. O
@@ -111,9 +111,9 @@ function Projetos() {
             {(!isMobile || mostrarTodos) && (
               <>
                 <div className="bloco-projetos">
-                  <h2 className="titulo-cima-bloco">
+                  <h3 className="titulo-cima-bloco">
                     Web Design & Desenvolvimento
-                  </h2>
+                  </h3>
                   <a
                     href="https://pincelmagicoanimacoes.com.br"
                     className="link"
@@ -130,42 +130,42 @@ function Projetos() {
                       <Carousel.Item>
                         <img
                           src={fotoPincel1}
-                          alt="primeira imagem do projeto Pincel Mágico"
+                          alt="Primeira imagem do projeto Pincel Mágico"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoPincel2}
-                          alt="segunda imagem do projeto Pincel Mágico"
+                          alt="Segunda imagem do projeto Pincel Mágico"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoPincel3}
-                          alt="terceira imagem do projeto Pincel Mágico"
+                          alt="Terceira imagem do projeto Pincel Mágico"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoPincel4}
-                          alt="quarta imagem do projeto Pincel Mágico"
+                          alt="Quarta imagem do projeto Pincel Mágico"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoPincel5}
-                          alt="quinta imagem do projeto Pincel Mágico"
+                          alt="Quinta imagem do projeto Pincel Mágico"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                     </Carousel>
                   </a>
                   <div className="titulo-projeto-container">
-                    <h2 className="titulo-projeto-cada">
+                    <h3 className="titulo-projeto-cada">
                       {" "}
                       <a
                         href="https://recreya.onrender.com"
@@ -175,7 +175,7 @@ function Projetos() {
                       >
                         Pincel Mágico
                       </a>
-                    </h2>
+                    </h3>
 
                     <p className="descricao-projeto">
                       Desenvolvimento da plataforma oficial da Pincel Mágico. O
@@ -188,9 +188,9 @@ function Projetos() {
                 </div>
 
                 <div className="bloco-projetos">
-                  <h2 className="titulo-cima-bloco">
+                  <h3 className="titulo-cima-bloco">
                     Web Design & Desenvolvimento
-                  </h2>
+                  </h3>
                   <a
                     href="https://seliga-portal.onrender.com"
                     className="link"
@@ -207,42 +207,42 @@ function Projetos() {
                       <Carousel.Item>
                         <img
                           src={fotoSeLiga1}
-                          alt="primeira imagem do projeto SeLiga"
+                          alt="Primeira imagem do projeto SeLiga"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoSeLiga2}
-                          alt="segunda imagem do projeto SeLiga"
+                          alt="Segunda imagem do projeto SeLiga"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoSeLiga3}
-                          alt="terceira imagem do projeto SeLiga"
+                          alt="Terceira imagem do projeto SeLiga"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoSeLiga4}
-                          alt="quarta imagem do projeto SeLiga"
+                          alt="Quarta imagem do projeto SeLiga"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                       <Carousel.Item>
                         <img
                           src={fotoSeLiga5}
-                          alt="quinta imagem do projeto SeLiga"
+                          alt="Quinta imagem do projeto SeLiga"
                           className="foto-carrossel"
                         />
                       </Carousel.Item>
                     </Carousel>
                   </a>
                   <div className="titulo-projeto-container">
-                    <h2 className="titulo-projeto-cada">
+                    <h3 className="titulo-projeto-cada">
                       <a
                         href="https://recreya.onrender.com"
                         target="_blank"
@@ -251,7 +251,7 @@ function Projetos() {
                       >
                         SeLiga
                       </a>
-                    </h2>
+                    </h3>
 
                     <p className="descricao-projeto">
                       Projeto desenvolvido para a universidade onde atuei na

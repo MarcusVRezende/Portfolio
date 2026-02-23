@@ -6,7 +6,7 @@ function Sobre() {
       <div className="sobre" id="sobre">
         <div className="conteudo-sobre">
           <div className="conteudo-texto-sobre">
-            <h1 className="titulo-sobre">Sobre Mim</h1>
+            <h2 className="titulo-sobre">Sobre Mim</h2>
             <div className="init-hidden">
               <p className="frase">
                 Estudante de Engenharia de Software & Dev Full Stack
@@ -34,7 +34,7 @@ function Sobre() {
           </div>
           <div className="init-hidden">
             <div className="sessao-foto">
-              <img src={foto} alt="fundo" className="foto-sobre" />
+              <img src={foto} alt="Foto de perfil do desenvolvedor" className="foto-sobre" />
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ function Habilidades() {
     <div className="habilidades-container" id="habilidades">
       <div className="habilidades">
         <div className="titulo-habilidades-container">
-          <h1 className="titulo-habilidades">Habilidades</h1>
+          <h2 className="titulo-habilidades">Habilidades</h2>
           <p className="titulo-descricao">O que eu faço</p>
         </div>
         <div className="init-hidden">
@@ -77,9 +77,9 @@ function Habilidades() {
           <div className="init-hidden">
             <div className="linguagens-container">
               <div className="linguagens">
-                <h1 className="linguagens-titulo">
+                <h3 className="linguagens-titulo">
                   Linguagens e tecnologias que estou estudando
-                </h1>
+                </h3>
                 <div className="linguagens-lista">
                   <div className="descricao">
                     <div className="icone-container">
