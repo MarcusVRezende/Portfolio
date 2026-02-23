@@ -113,6 +113,11 @@
 }
 
 @media (max-width: 800px) {
+    .contatos-container {
+        padding-bottom: 10px;
+
+    }
+
     .titulo-contatos {
         font-size: 3.5rem;
     }
@@ -153,19 +158,27 @@
         width: 45px;
         height: 45px;
     }
+
 }
+
 @media (max-width: 500px) {
+    .contatos-container {
+        padding-bottom: 5px;
+    }
+
     .titulo-contatos {
         font-size: 3.2rem;
     }
 
     .titulo-contatos-extra {
         padding: 15px;
-        font-size: 1.5rem;
+        font-size: 5rem;
     }
 
-    .texto-contatos {
-        font-size: 1.1rem;
+    .texto-contatos, .titulo-contatos-extra {
+        margin-left: -45px;
+        margin-right: -45px;
+        font-size: 1.3rem;
     }
 
     .botao-email {
@@ -189,6 +202,7 @@
         height: 42px;
     }
 }
+
 @media (max-width: 330px) {
     .titulo-contatos {
         font-size: 3rem;
@@ -204,7 +218,8 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-      .botao-email {
+
+    .botao-email {
         padding: 10px 20px;
         font-size: 1.3rem;
     }

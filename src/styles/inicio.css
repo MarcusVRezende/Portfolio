@@ -200,13 +200,13 @@
     }
 
     .botoes {
-        padding: 3%;
-        gap: 20px;
+        padding: 1%;
+        gap: 15px;
     }
 
     .botao1,
     .botao2 {
-        padding: 20px 12px;
-        font-size: 1rem;
+        padding: 15px 12px;
+        font-size: 0.9rem;
     }
 }
