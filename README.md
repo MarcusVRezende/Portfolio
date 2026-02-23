@@ -35,7 +35,7 @@ Caso queira clonar este repositório e testar na sua máquina:
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+   git clone [https://github.com/MarcusVRezende/Portfolio.git](https://github.com/MarcusVRezende/Portfolio.git)
 
 2. **Instale as dependências:**
    ```bash
