@@ -49,9 +49,7 @@
 }
 
 .botao-email {
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     background-image: linear-gradient(to right, #92007E, #05A0CA);
     font-size: 2rem;
     font-family: "jura", sans-serif;

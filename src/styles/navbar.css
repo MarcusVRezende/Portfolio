@@ -27,7 +27,8 @@
     font-size: 2rem;
     padding-right: 1.5rem;
 }
-.nav-link-mobile{
+
+.nav-link-mobile {
 
     padding: 10px;
     font-family: "Jura", sans-serif;
@@ -44,7 +45,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
     max-width: 100% !important;
     background-color: black !important;
@@ -57,17 +58,19 @@
     padding-top: 20px !important;
     padding-bottom: 20px !important;
 }
+
 .navbar-brand {
     padding: 0px 50px;
     color: #05A0CA !important;
     font-weight: bold;
     font-size: 2rem !important;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     transform: scale(1.2);
     transition: all 0.5s ease;
     text-shadow: 0px 0px 20px #059fca;
-} 
+}
 
 .navegacao {
     margin-right: 20%;
@@ -86,6 +89,7 @@
     color: #00d4ff !important;
     /* O azul vibrante do teu gradiente */
 }
+
 @media (max-width: 768px) {
 
     .navegacao {
@@ -96,4 +100,14 @@
         display: block;
     }
 
+
+}
+
+@media (max-width: 425px) {
+
+    .navbar-brand {
+        padding: 0px 10px;
+        font-weight: bold;
+        font-size: 2rem !important;
+    }
 }
