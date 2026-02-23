@@ -6,14 +6,10 @@
     🚀 <a href="https://marcusvrezende.github.io/Portfolio/">Clique aqui para acessar o site</a>
   </h3>
 </div>
-Este projeto é o site oficial da Pincel Mágico, uma empresa focada em animação de eventos. 
-O objetivo principal do site é apresentar o portfólio da empresa, descrever seus serviços e facilitar o contato para clientes interessados.
-
-Este é o meu portfólio desenvolvido com **React.js**, focado em apresentar meus projetos de Web Design e Desenvolvimento de forma interativa e responsiva.
 
 ---
 
-## Sobre o Projeto
+## Sobre o Projeto ##
 
 O projeto foi construído para centralizar minha trajetória como desenvolvedor, destacando tecnologias modernas e garantindo uma experiência de usuário leve (UI/UX).
 
