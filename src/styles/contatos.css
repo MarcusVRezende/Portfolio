@@ -11,7 +11,7 @@
     background-image: linear-gradient(#36012f 20%, #022D38);
     color: white;
     text-align: center;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 .titulo-contatos-container {
@@ -23,7 +23,7 @@
     font-size: 4rem;
 }
 
-.titulo-rodape-extra {
+.titulo-contatos-extra {
     padding: 15px;
     font-family: "jura", sans-serif;
     font-weight: 800;
@@ -80,7 +80,6 @@
 .icone-redes {
     padding: 0px;
     background-color: rgb(0, 0, 0);
-    padding: 10px;
     border-radius: 50px;
     width: 75px;
     height: 75px;
@@ -92,14 +91,122 @@
     border: 1px solid black;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
+
 .icone-redes:hover {
     transform: scale(1.05);
     transition: all 0.3s ease;
     box-shadow: 0px 0px 20px #05A0CA;
 }
-.icone{
+
+.icone {
     padding: 5px;
     width: 50px;
     height: 50px;
     color: #005971;
+}
+
+@media (max-width: 1024px) {
+    .texto-contatos {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .titulo-contatos {
+        font-size: 3.5rem;
+    }
+
+    .titulo-contatos-extra {
+        padding: 15px;
+        font-size: 2.1rem;
+    }
+
+    .texto-contatos {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 1.3rem;
+    }
+
+    .email-container {
+        padding: 5px;
+    }
+
+    .botao-email {
+        padding: 5px 20px;
+        font-size: 1.8rem;
+    }
+
+    .icone-redes-sociais {
+        padding: 0px;
+        padding-top: 25px;
+        gap: 5%;
+    }
+
+    .icone-redes {
+        border-radius: 50px;
+        width: 65px;
+        height: 65px;
+    }
+
+    .icone {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (max-width: 500px) {
+    .titulo-contatos {
+        font-size: 3.2rem;
+    }
+
+    .titulo-contatos-extra {
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    .texto-contatos {
+        font-size: 1.1rem;
+    }
+
+    .botao-email {
+        padding: 10px 20px;
+        font-size: 1.3rem;
+    }
+
+    .icone-redes-sociais {
+        padding-top: 20px;
+        gap: 5%;
+    }
+
+    .icone-redes {
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .icone {
+        width: 42px;
+        height: 42px;
+    }
+}
+@media (max-width: 330px) {
+    .titulo-contatos {
+        font-size: 3rem;
+    }
+
+    .titulo-contatos-extra {
+        padding: 15px;
+        font-size: 1.3rem;
+    }
+
+    .texto-contatos {
+        font-size: 1rem;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+      .botao-email {
+        padding: 10px 20px;
+        font-size: 1.3rem;
+    }
+
 }
