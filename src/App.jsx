@@ -26,7 +26,7 @@ function App() {
     );
     const elements = document.querySelectorAll(".init-hidden");
     elements.forEach((el) => observer.observe(el));
-
+    
     return () => observer.disconnect();
   }, []);
   return (
