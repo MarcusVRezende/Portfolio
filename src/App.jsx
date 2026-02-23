@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import NavBar from "./componentes/NavBar.jsx";
-import Inicio from "./componentes/inicio.jsx";
-import Sobre from "./componentes/Sobre.jsx";
-import Projetos from "./componentes/Projetos.jsx";
-import Habilidades from "./componentes/Habilidades.jsx";
-import Contatos from "./componentes/Contatos.jsx";
+import NavBar from "./componentes/NavBar";
+import Inicio from "./componentes/inicio";
+import Sobre from "./componentes/Sobre";
+import Projetos from "./componentes/Projetos";
+import Habilidades from "./componentes/Habilidades";
+import Contatos from "./componentes/Contatos";
 
 function App() {
   useEffect(() => {
