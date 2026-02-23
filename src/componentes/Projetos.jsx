@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/projetos.css";
 import Carousel from "react-bootstrap/Carousel";
 import fotoPincel1 from "../assets/projetos-fotos/pincel-magico/imagem1.jpg";
@@ -19,6 +19,19 @@ import fotoSeLiga4 from "../assets/projetos-fotos/seLiga/imagem4.png";
 import fotoSeLiga5 from "../assets/projetos-fotos/seLiga/imagem5.png";
 
 function Projetos() {
+  const [mostrarTodos, setMostrarTodos] = useState(false);
+  const [larguraTela, setLarguraTela] = useState(window.innerWidth);
+
+  // Atualiza a largura da tela quando o usuário redimensionar
+  useEffect(() => {
+    const handleResize = () => setLarguraTela(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Define se é mobile (425px ou menos)
+  const isMobile = larguraTela <= 652;
+
   return (
     <div className="projetos-container" id="projetos">
       <div className="projetos">
@@ -27,83 +40,6 @@ function Projetos() {
         </div>
         <div className="init-hidden">
           <div className="bloco-projetos-container">
-            <div className="bloco-projetos">
-              <h2 className="titulo-cima-bloco">
-                Web Design & Desenvolvimento
-              </h2>
-              <a
-                href="https://pincelmagicoanimacoes.com.br"
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Carousel
-                  fade
-                  className="foto-carrossel-container"
-                  controls={false}
-                  indicators={false}
-                  interval={2000}
-                >
-                  <Carousel.Item>
-                    <img
-                      src={fotoPincel1}
-                      alt="primeira imagem do projeto Pincel Mágico"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoPincel2}
-                      alt="segunda imagem do projeto Pincel Mágico"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoPincel3}
-                      alt="terceira imagem do projeto Pincel Mágico"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoPincel4}
-                      alt="quarta imagem do projeto Pincel Mágico"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoPincel5}
-                      alt="quinta imagem do projeto Pincel Mágico"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </a>
-              <div className="titulo-projeto-container">
-                <h2 className="titulo-projeto-cada">
-                  {" "}
-                  <a
-                    href="https://recreya.onrender.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="link"
-                  >
-                    Pincel Mágico
-                  </a>
-                </h2>
-
-                <p className="descricao-projeto">
-                  Desenvolvimento da plataforma oficial da Pincel Mágico. O site
-                  foi estruturado para apresentar o catálogo de animação de
-                  eventos de forma atrativa, facilitando o agendamento de
-                  serviços e fortalecendo a identidade visual da empresa no
-                  ambiente online.
-                </p>
-              </div>
-            </div>
-
             <div className="bloco-projetos">
               <h2 className="titulo-cima-bloco">
                 Web Design & Desenvolvimento
@@ -172,83 +108,174 @@ function Projetos() {
               </div>
             </div>
 
-            <div className="bloco-projetos">
-              <h2 className="titulo-cima-bloco">
-                Web Design & Desenvolvimento
-              </h2>
-              <a
-                href="https://seliga-portal.onrender.com"
-                className="link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Carousel
-                  fade
-                  className="foto-carrossel-container"
-                  controls={false}
-                  indicators={false}
-                  interval={2000}
-                >
-                  <Carousel.Item>
-                    <img
-                      src={fotoSeLiga1}
-                      alt="primeira imagem do projeto SeLiga"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoSeLiga2}
-                      alt="segunda imagem do projeto SeLiga"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoSeLiga3}
-                      alt="terceira imagem do projeto SeLiga"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoSeLiga4}
-                      alt="quarta imagem do projeto SeLiga"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      src={fotoSeLiga5}
-                      alt="quinta imagem do projeto SeLiga"
-                      className="foto-carrossel"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </a>
-              <div className="titulo-projeto-container">
-                <h2 className="titulo-projeto-cada">
+            {(!isMobile || mostrarTodos) && (
+              <>
+                <div className="bloco-projetos">
+                  <h2 className="titulo-cima-bloco">
+                    Web Design & Desenvolvimento
+                  </h2>
                   <a
-                    href="https://recreya.onrender.com"
+                    href="https://pincelmagicoanimacoes.com.br"
+                    className="link"
                     target="_blank"
                     rel="noreferrer"
-                    className="link"
                   >
-                    SeLiga
+                    <Carousel
+                      fade
+                      className="foto-carrossel-container"
+                      controls={false}
+                      indicators={false}
+                      interval={2000}
+                    >
+                      <Carousel.Item>
+                        <img
+                          src={fotoPincel1}
+                          alt="primeira imagem do projeto Pincel Mágico"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoPincel2}
+                          alt="segunda imagem do projeto Pincel Mágico"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoPincel3}
+                          alt="terceira imagem do projeto Pincel Mágico"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoPincel4}
+                          alt="quarta imagem do projeto Pincel Mágico"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoPincel5}
+                          alt="quinta imagem do projeto Pincel Mágico"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                    </Carousel>
                   </a>
-                </h2>
+                  <div className="titulo-projeto-container">
+                    <h2 className="titulo-projeto-cada">
+                      {" "}
+                      <a
+                        href="https://recreya.onrender.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link"
+                      >
+                        Pincel Mágico
+                      </a>
+                    </h2>
 
-                <p className="descricao-projeto">
-                  Projeto desenvolvido para a universidade onde atuei na criação
-                  da interface web. O objetivo foi transformar dados complexos
-                  de verificação de notícias em um painel simples e acessível,
-                  utilizando componentes modernos para facilitar a checagem de
-                  informações pelo usuário final.
-                </p>
-              </div>
-            </div>
+                    <p className="descricao-projeto">
+                      Desenvolvimento da plataforma oficial da Pincel Mágico. O
+                      site foi estruturado para apresentar o catálogo de
+                      animação de eventos de forma atrativa, facilitando o
+                      agendamento de serviços e fortalecendo a identidade visual
+                      da empresa no ambiente online.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bloco-projetos">
+                  <h2 className="titulo-cima-bloco">
+                    Web Design & Desenvolvimento
+                  </h2>
+                  <a
+                    href="https://seliga-portal.onrender.com"
+                    className="link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Carousel
+                      fade
+                      className="foto-carrossel-container"
+                      controls={false}
+                      indicators={false}
+                      interval={2000}
+                    >
+                      <Carousel.Item>
+                        <img
+                          src={fotoSeLiga1}
+                          alt="primeira imagem do projeto SeLiga"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoSeLiga2}
+                          alt="segunda imagem do projeto SeLiga"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoSeLiga3}
+                          alt="terceira imagem do projeto SeLiga"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoSeLiga4}
+                          alt="quarta imagem do projeto SeLiga"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoSeLiga5}
+                          alt="quinta imagem do projeto SeLiga"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                    </Carousel>
+                  </a>
+                  <div className="titulo-projeto-container">
+                    <h2 className="titulo-projeto-cada">
+                      <a
+                        href="https://recreya.onrender.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link"
+                      >
+                        SeLiga
+                      </a>
+                    </h2>
+
+                    <p className="descricao-projeto">
+                      Projeto desenvolvido para a universidade onde atuei na
+                      criação da interface web. O objetivo foi transformar dados
+                      complexos de verificação de notícias em um painel simples
+                      e acessível, utilizando componentes modernos para
+                      facilitar a checagem de informações pelo usuário final.
+                    </p>
+                  </div>
+                </div>
+              </>
+            )}
           </div>
         </div>
+        {isMobile && (
+          <div className="container-botao-ver-mais">
+            <button
+              className="botao-ver-mais"
+              onClick={() => setMostrarTodos(!mostrarTodos)}
+            >
+              {mostrarTodos ? "Ver Menos" : "Ver Mais Projetos.."}
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

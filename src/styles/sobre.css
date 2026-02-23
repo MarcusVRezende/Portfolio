@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');
 
-.sobre-container{
+.sobre-container {
     background-image: url('../assets/fotos-fundos/fundo2.png');
     color: white;
     background-color: rgba(0, 0, 0);
@@ -15,20 +15,23 @@
 
     padding: 0px;
 }
-.sobre{
-   
+
+.sobre {
+
     flex-direction: column;
     display: flex;
     padding: 60px;
 }
-.titulo-sobre{
+
+.titulo-sobre {
     font-family: "Jura", sans-serif;
     font-weight: 700;
     font-size: 4rem;
     padding: 20px;
     padding-left: 0px;
 }
-.frase{
+
+.frase {
     padding: 0px 0px;
     font-size: 3.3rem;
     width: 90%;
@@ -37,31 +40,219 @@
     line-height: 1.2;
 }
 
-.texto-sobre{
+.texto-sobre {
     font-size: 1.5rem;
     width: 85%;
     text-align: justify;
 }
-.sessao-foto{
+
+.sessao-foto {
     flex: 1;
     display: flex;
     margin-top: 40%;
-    
+
 }
-.foto-sobre{
+
+.foto-sobre {
     width: 100%;
     margin-left: -10%;
     border-radius: 50%;
-    border: 2px solid #1194c4c5 ;
-    box-shadow:  0px 0px 25px #0000002d;
+    border: 2px solid #1194c4c5;
+    box-shadow: 0px 0px 25px #0000002d;
 }
+
+.foto-sobre:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 15px #1194c4;
+
+}
+
 .conteudo-sobre {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* FAZ A FOTO SUBIR: Alinha tudo pelo topo */
+    align-items: flex-start;
+    /* FAZ A FOTO SUBIR: Alinha tudo pelo topo */
     gap: 0px;
 }
-.conteudo-texto-sobre{
+
+.conteudo-texto-sobre {
     flex: 2.0;
     margin-top: 2%;
+}
+
+
+@media (max-width: 1024px) {
+
+    .sobre {
+        display: flex;
+        padding: 20px 50px;
+    }
+
+    .titulo-sobre {
+        font-size: 3rem;
+        padding: 20px;
+        padding-left: 0px;
+        padding-top: 70px;
+    }
+
+    .frase {
+        padding: 0px 0px;
+        font-size: 2.5rem;
+        width: 100%;
+
+    }
+
+    .texto-sobre {
+        font-size: 1.14rem;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .sessao-foto {
+        margin-top: 55%;
+
+    }
+
+    .foto-sobre {
+        width: 80%;
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sobre {
+        display: flex;
+        padding: 20px 50px;
+    }
+
+
+    .frase {
+        padding: 0px 0px;
+        font-size: 1.5rem;
+        width: 200%;
+    }
+
+    .texto-sobre {
+        font-size: 1.1rem;
+        width: 140%;
+        text-align: justify;
+    }
+
+    .sessao-foto {
+        margin-top: 65%;
+    }
+
+    .foto-sobre {
+        width: 65%;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 470px) {
+  
+
+    .titulo-sobre {
+        font-weight: 700;
+        font-size: 2.1rem;
+        padding: 20px;
+        padding-left: 0px;
+        width: 150%;
+    }
+
+    .sobre {
+        display: flex;
+        padding: 80px 25px;
+    }
+
+
+    .frase {
+        padding: 0px;
+        font-size: 1.8rem;
+        width: 140%;
+    }
+
+    .texto-sobre {
+        padding: 5px;
+        font-size: 1.2rem;
+        width: 250%;
+    }
+
+    .sessao-foto {
+        margin-top: 20%;
+    }
+
+    .foto-sobre {
+        width: 70%;
+        margin-left: 30%;
+    }
+}
+@media (max-width: 375px) {
+  
+
+    .titulo-sobre {
+        font-weight: 700;
+        font-size: 2.2rem;
+        padding: 15px;
+        padding-left: 0px;
+    }
+
+    .sobre {
+        padding: 80px 15px;
+    }
+
+
+    .frase {
+        padding: 5px;
+        font-size: 1.5rem;
+        width: 140%;
+    }
+
+    .texto-sobre {
+        padding: 10px;
+        font-size: 1rem;
+        width: 240%;
+    }
+
+    .sessao-foto {
+        margin-top: 15%;
+    }
+     .foto-sobre {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+}
+@media (max-width: 320px) {
+    .sobre {
+        padding: 100px 15px;
+        padding-bottom: 40px;
+    }
+
+    .titulo-sobre {
+        font-size: 2rem;
+        width: 170%;
+    }
+
+    .frase {
+        padding: 5px;
+        font-size: 1.2rem;
+        width: 130%;
+    }
+
+    .texto-sobre {
+        padding: 10px;
+        font-size: 0.8rem;
+        width: 250%;
+    }
+
+    .sessao-foto {
+        margin-top: 20%;
+    }
+     .foto-sobre {
+        width: 70%;
+        margin-left: 28%;
+    }
+
 }
