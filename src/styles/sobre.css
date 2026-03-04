@@ -204,9 +204,6 @@
 }
 @media (max-width: 375px) {
 
-}
-@media (max-width: 375px) {
-
 
     .titulo-sobre {
         font-weight: 700;
@@ -229,7 +226,7 @@
     .texto-sobre {
         padding: 10px;
         font-size: 1rem;
-        width: 240%;
+        width: 230%;
     }
 
     .sessao-foto {
