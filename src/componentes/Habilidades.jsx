@@ -25,7 +25,8 @@ function Habilidades() {
             <Card className="cards">
               <Card.Body>
                 <Card.Title className="card-titulo">UI/UX Design</Card.Title>
-                <Card.Text className="card-texto">
+
+                <Card.Text as="div" className="card-texto">
                   Interfaces intuitivas e experiências focadas no usuário,
                   utilizando as melhores práticas de design e usabilidade.
                   <div className="extra-container">
@@ -38,7 +39,7 @@ function Habilidades() {
             <Card className="cards">
               <Card.Body>
                 <Card.Title className="card-titulo">Desenvolvimento</Card.Title>
-                <Card.Text className="card-texto">
+                <Card.Text  as="div"className="card-texto">
                   Soluções robustas e escaláveis, utilizando as melhores
                   práticas de Clean Code e performance.
                   <div className="extra-container">
@@ -51,7 +52,7 @@ function Habilidades() {
             <Card className="cards">
               <Card.Body>
                 <Card.Title className="card-titulo">Estratégia</Card.Title>
-                <Card.Text className="card-texto">
+                <Card.Text as="div" className="card-texto">
                   Análise de dados e planejamento de produto para transformar
                   ideias em resultados reais de negócio.
                   <div className="extra-container">
@@ -64,7 +65,7 @@ function Habilidades() {
             <Card className="cards">
               <Card.Body>
                 <Card.Title className="card-titulo">Produto</Card.Title>
-                <Card.Text className="card-texto">
+                <Card.Text as="div" className="card-texto">
                   Gestão do ciclo de vida de produtos digitais, unindo visão
                   estratégica e foco total na entrega de valor.
                   <div className="extra-container">
