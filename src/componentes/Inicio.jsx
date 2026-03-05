@@ -7,7 +7,14 @@ function Inicio() {
   return (
     <div className="inicio-container" id="home">
       <div className="inicio">
-        <video className="video-background" autoPlay loop muted playsInline>
+        <video
+          className="video-background"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
           <source src={video} type="video/mp4" />
         </video>
         <div className="texto-icicio">
