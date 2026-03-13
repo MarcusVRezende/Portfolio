@@ -45,7 +45,7 @@ function Projetos() {
                 Web Design & Desenvolvimento
               </h3>
               <a
-                href="https://marcusvrezende.github.io/recreya/"
+                href="https://pincelmagicoanimacoes.com.br"
                 className="link"
                 target="_blank"
                 rel="noreferrer"
@@ -59,29 +59,36 @@ function Projetos() {
                 >
                   <Carousel.Item>
                     <img
-                      src={fotoRecreya1}
-                      alt="Primeira imagem do site Recreya"
+                      src={fotoPincel1}
+                      alt="Primeira imagem do projeto Pincel Mágico"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      src={fotoRecreya2}
-                      alt="Segunda imagem do site Recreya"
+                      src={fotoPincel2}
+                      alt="Segunda imagem do projeto Pincel Mágico"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      src={fotoRecreya3}
-                      alt="Terceira imagem do site Recreya"
+                      src={fotoPincel3}
+                      alt="Terceira imagem do projeto Pincel Mágico"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      src={fotoRecreya4}
-                      alt="Quarta imagem do site Recreya"
+                      src={fotoPincel4}
+                      alt="Quarta imagem do projeto Pincel Mágico"
+                      className="foto-carrossel"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src={fotoPincel5}
+                      alt="Quinta imagem do projeto Pincel Mágico"
                       className="foto-carrossel"
                     />
                   </Carousel.Item>
@@ -89,104 +96,28 @@ function Projetos() {
               </a>
               <div className="titulo-projeto-container">
                 <h3 className="titulo-projeto-cada">
+                  {" "}
                   <a
                     href="https://recreya.onrender.com"
                     target="_blank"
                     rel="noreferrer"
                     className="link"
                   >
-                    Recreya
+                    Pincel Mágico
                   </a>
                 </h3>
 
                 <p className="descricao-projeto">
-                  Website institucional desenvolvido com React e Tailwind CSS. O
-                  projeto foca em componentes dinâmicos e estilização otimizada
-                  para oferecer uma experiência de usuário leve e interativa,
-                  refletindo a energia e o dinamismo do setor de eventos.
+                  Desenvolvimento da plataforma oficial da Pincel Mágico. O site
+                  foi estruturado para apresentar o catálogo de animação de
+                  eventos de forma atrativa, facilitando o agendamento de
+                  serviços e fortalecendo a identidade visual da empresa no
+                  ambiente online.
                 </p>
               </div>
             </div>
-
             {(!isMobile || mostrarTodos) && (
               <>
-                <div className="bloco-projetos">
-                  <h3 className="titulo-cima-bloco">
-                    Web Design & Desenvolvimento
-                  </h3>
-                  <a
-                    href="https://pincelmagicoanimacoes.com.br"
-                    className="link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Carousel
-                      fade
-                      className="foto-carrossel-container"
-                      controls={false}
-                      indicators={false}
-                      interval={2000}
-                    >
-                      <Carousel.Item>
-                        <img
-                          src={fotoPincel1}
-                          alt="Primeira imagem do projeto Pincel Mágico"
-                          className="foto-carrossel"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          src={fotoPincel2}
-                          alt="Segunda imagem do projeto Pincel Mágico"
-                          className="foto-carrossel"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          src={fotoPincel3}
-                          alt="Terceira imagem do projeto Pincel Mágico"
-                          className="foto-carrossel"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          src={fotoPincel4}
-                          alt="Quarta imagem do projeto Pincel Mágico"
-                          className="foto-carrossel"
-                        />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img
-                          src={fotoPincel5}
-                          alt="Quinta imagem do projeto Pincel Mágico"
-                          className="foto-carrossel"
-                        />
-                      </Carousel.Item>
-                    </Carousel>
-                  </a>
-                  <div className="titulo-projeto-container">
-                    <h3 className="titulo-projeto-cada">
-                      {" "}
-                      <a
-                        href="https://recreya.onrender.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="link"
-                      >
-                        Pincel Mágico
-                      </a>
-                    </h3>
-
-                    <p className="descricao-projeto">
-                      Desenvolvimento da plataforma oficial da Pincel Mágico. O
-                      site foi estruturado para apresentar o catálogo de
-                      animação de eventos de forma atrativa, facilitando o
-                      agendamento de serviços e fortalecendo a identidade visual
-                      da empresa no ambiente online.
-                    </p>
-                  </div>
-                </div>
-
                 <div className="bloco-projetos">
                   <h3 className="titulo-cima-bloco">
                     Web Design & Desenvolvimento
@@ -259,6 +190,74 @@ function Projetos() {
                       complexos de verificação de notícias em um painel simples
                       e acessível, utilizando componentes modernos para
                       facilitar a checagem de informações pelo usuário final.
+                    </p>
+                  </div>
+                </div>
+                <div className="bloco-projetos">
+                  <h3 className="titulo-cima-bloco">
+                    Web Design & Desenvolvimento
+                  </h3>
+                  <a
+                    href="https://marcusvrezende.github.io/recreya/"
+                    className="link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Carousel
+                      fade
+                      className="foto-carrossel-container"
+                      controls={false}
+                      indicators={false}
+                      interval={2000}
+                    >
+                      <Carousel.Item>
+                        <img
+                          src={fotoRecreya1}
+                          alt="Primeira imagem do site Recreya"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoRecreya2}
+                          alt="Segunda imagem do site Recreya"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoRecreya3}
+                          alt="Terceira imagem do site Recreya"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img
+                          src={fotoRecreya4}
+                          alt="Quarta imagem do site Recreya"
+                          className="foto-carrossel"
+                        />
+                      </Carousel.Item>
+                    </Carousel>
+                  </a>
+                  <div className="titulo-projeto-container">
+                    <h3 className="titulo-projeto-cada">
+                      <a
+                        href="https://recreya.onrender.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link"
+                      >
+                        Recreya
+                      </a>
+                    </h3>
+
+                    <p className="descricao-projeto">
+                      Website institucional desenvolvido com React e Tailwind
+                      CSS. O projeto foca em componentes dinâmicos e estilização
+                      otimizada para oferecer uma experiência de usuário leve e
+                      interativa, refletindo a energia e o dinamismo do setor de
+                      eventos.
                     </p>
                   </div>
                 </div>
